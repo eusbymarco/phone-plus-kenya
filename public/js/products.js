@@ -36,81 +36,70 @@ window.PHONE_PLUS_PRODUCTS = [
     specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
   },
   {
-    id: 'samsung-galaxy-a27-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy A27 5G', storage: 'Details pending', ram: 'Details pending',
-    color: 'Details pending', condition: 'Details pending', batteryHealth: 'Details pending', network: 'Details pending', warranty: 'Details pending',
-    priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-galaxy-a27-5g/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Details pending', processor: 'Details pending', camera: 'Details pending', operatingSystem: 'Details pending' }
+    id: 'samsung-galaxy-a27-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy A27 5G', storage: '128GB, 256GB', ram: '6GB, 8GB',
+    color: 'Black, Blue, Light Green, Light Pink', condition: 'new', battery: '5000mAh, 25W', network: '5G', warranty: '1 Year Manufacturer Warranty',
+    priceKes: 35000, stockStatus: 'in stock', images: ['./images/products/samsung/samsung-galaxy-a27-5g/1.jpeg'],
+    specifications: { display: '6.7 inches, Super AMOLED', processor: 'Qualcomm Snapdragon 6 Gen 3 (4 nm)', camera: '12 MP Selfie lens; 50 MP + 5MP + 2 MP Primary Camera', operatingSystem: 'Android 16' }
   },
   {
-    id: 'samsung-galaxy-a37-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy A37 5G', storage: 'Details pending', ram: 'Details pending',
-    color: 'Details pending', condition: 'Details pending', batteryHealth: 'Details pending', network: 'Details pending', warranty: 'Details pending',
-    priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-galaxy-a37-5g/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Details pending', processor: 'Details pending', camera: 'Details pending', operatingSystem: 'Details pending' }
+    id: 'samsung-galaxy-a37-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy A37 5G', storage: '128GB, 256GB', ram: '6GB, 8GB, 12GB',
+    color: 'Graygreen, Charcoal, White, Light Violet', condition: 'New', battery: '5000mAh, 45W', network: '5G', warranty: '1 Year Manufacturer Warranty',
+    priceKes: 43000, stockStatus: 'In stock', images: ['./images/products/samsung/samsung-galaxy-a37-5g/1.jpeg'],
+    specifications: { display: '6.7-inch, Super AMOLED', processor: 'Exynos 1480 (4 nm)', camera: '50MP + 8MP + 5MP', operatingSystem: 'Android 16, up to 6 major Android upgrades, One UI 8.5' }
   },
   {
-    id: 'samsung-galaxy-a57-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy A57 5G', storage: 'Details pending', ram: 'Details pending',
-    color: 'Details pending', condition: 'Details pending', batteryHealth: 'Details pending', network: 'Details pending', warranty: 'Details pending',
-    priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-galaxy-a57-5g/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Details pending', processor: 'Details pending', camera: 'Details pending', operatingSystem: 'Details pending' }
+    id: 'samsung-galaxy-a57-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy A57 5G', storage: '128GB / 256GB', ram: '8GB, 12GB',
+    color: 'Navy, Gray, Icyblue, Lilac', condition: 'New', battery: '5000mAh, 45W Super Fast Charging', network: '5G', warranty: '1 Year Manufacturer Warranty',
+    priceKes: 46000, stockStatus: 'In stock', images: ['./images/products/samsung/samsung-galaxy-a57-5g/1.jpeg'],
+    specifications: { display: '6.7-inch FHD+ Super AMOLED Plus, 120Hz, Vision Booster', processor: 'Exynos 1680 (4nm), Xclipse 550 GPU', camera: '50MP (OIS) + 12MP (ultra-wide) + 5MP (macro)', operatingSystem: 'Android 16, One UI 8.5' }
   },
   {
-    id: 'samsung-galaxy-m07-4g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy M07 4G', storage: 'Details pending', ram: 'Details pending',
-    color: 'Details pending', condition: 'Details pending', batteryHealth: 'Details pending', network: 'Details pending', warranty: 'Details pending',
-    priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-galaxy-m07-4g/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Details pending', processor: 'Details pending', camera: 'Details pending', operatingSystem: 'Details pending' }
+    id: 'samsung-galaxy-m07-4g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy M07 4G', storage: 'Details pending', ram: '4GB',
+    color: 'Details pending', condition: 'New', battery: '5,000mAh with 25W wired fast charger.', network: '4G', warranty: 'NO LOCAL WARRANTY',
+    priceKes: 15000, stockStatus: 'In stock', images: ['./images/products/samsung/samsung-galaxy-m07-4g/1.jpeg'],
+    specifications: { display: 'Mint Green', processor: 'MediaTek Helio G99 (6 nm)', camera: '50MP main dual camera', operatingSystem: 'Mediatek Helio G85 (12 nm)' }
   },
   {
-    id: 'samsung-galaxy-m17e-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy M17e 5G', storage: 'Details pending', ram: 'Details pending',
-    color: 'Details pending', condition: 'Details pending', batteryHealth: 'Details pending', network: 'Details pending', warranty: 'Details pending',
-    priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-galaxy-m17e-5g/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Details pending', processor: 'Details pending', camera: 'Details pending', operatingSystem: 'Details pending' }
+    id: 'samsung-galaxy-m17e-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy M17e 5G', storage: '128GB', ram: '4G,6GB',
+    color: 'Blitz Blue, Vibe Violet', condition: 'New', battery: '6000mAh, 25W', network: '5G', warranty: 'NO LOCAL WARRANTY',
+    priceKes: 20500, stockStatus: 'In stock', images: ['./images/products/samsung/samsung-galaxy-m17e-5g/1.jpeg'],
+    specifications: { display: '6.7-inch PLS LCD screen with a 120Hz refresh rate.', processor: 'MediaTek Dimensity 6300 (6 nm).', camera: '50MP main rear camera with an auxiliary lens, plus an 8MP front selfie camera.', operatingSystem: 'Android 16, One UI 8' }
   },
   {
-    id: 'samsung-galaxy-s26-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy S26 5G', storage: 'Details pending', ram: 'Details pending',
-    color: 'Details pending', condition: 'Details pending', batteryHealth: 'Details pending', network: 'Details pending', warranty: 'Details pending',
-    priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-galaxy-s26-5g/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Details pending', processor: 'Details pending', camera: 'Details pending', operatingSystem: 'Details pending' }
+    id: 'samsung-galaxy-s26-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy S26 5G', storage: '256GB', ram: '12GB',
+    color: 'Cobalt Violet, Sky Blue, Black, White, Silver Shadow, Pink Gold', condition: 'New', battery: '4300mAh, 25W', network: '5G', warranty: '1 Year Manufacturer Warranty',
+    priceKes: 100000, stockStatus: 'In stock', images: ['./images/products/samsung/samsung-galaxy-s26-5g/1.jpeg'],
+    specifications: { display: '6.3 inches, Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)', processor: 'Snapdragon 8 Elite Gen 5 (or Exynos 2600 depending on region)', camera: '50MP main, 10MP telephoto (3x optical zoom), and 12MP ultra-wide', operatingSystem: 'Android 16' }
   },
   {
-    id: 'samsung-galaxy-s26-plus-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy S26 Plus 5G', storage: 'Details pending', ram: 'Details pending',
-    color: 'Details pending', condition: 'Details pending', batteryHealth: 'Details pending', network: 'Details pending', warranty: 'Details pending',
-    priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-galaxy-s26-plus-5g/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Details pending', processor: 'Details pending', camera: 'Details pending', operatingSystem: 'Details pending' }
+    id: 'samsung-galaxy-s26-plus-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy S26 Plus 5G', storage: '256GB, 512GB', ram: '12GB',
+    color: 'Cobalt Violet, Sky Blue, Black, White, Silver Shadow, Pink Gold', condition: 'New', battery: '4900mAh, 25W', network: ' 5G', warranty: '1 Year Manufacturer Warranty',
+    priceKes: 111000, stockStatus: 'In stock', images: ['./images/products/samsung/samsung-galaxy-s26-plus-5g/1.jpeg'],
+    specifications: { display: '6.7 inches, Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)', processor: 'Qualcomm Snapdragon 8 Elite Gen 5 (or Exynos 2600 depending on region)', camera: '50MP main, 10MP telephoto (3x optical zoom), and 12MP ultra-wide', operatingSystem: 'Android 16' }
   },
   {
-    id: 'samsung-galaxy-s26-ultra-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy S26 Ultra 5G', storage: 'Details pending', ram: 'Details pending',
-    color: 'Details pending', condition: 'Details pending', batteryHealth: 'Details pending', network: 'Details pending', warranty: 'Details pending',
-    priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-galaxy-s26-ultra-5g/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Details pending', processor: 'Details pending', camera: 'Details pending', operatingSystem: 'Details pending' }
+    id: 'samsung-galaxy-s26-ultra-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy S26 Ultra 5G', storage: '256GB, 512GB, 1TB', ram: '12GB, 16GB',
+    color: 'Cobalt Violet, Sky Blue, Black, White', condition: 'New', battery: '5000mAh, 60W', network: '5G', warranty: '1 Year Manufacturer Warranty',
+    priceKes: 122000, stockStatus: 'In stock', images: ['./images/products/samsung/samsung-galaxy-s26-ultra-5g/1.jpeg'],
+    specifications: { display: '6.9 inches, Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)', processor: 'Qualcomm Snapdragon 8 Elite Gen 5.', operatingSystem: 'Android 16' }
   },
   {
-    id: 'samsung-galaxy-z-flip8', brand: 'Samsung', category: 'Samsung', model: 'Galaxy Z Flip8', storage: 'Details pending', ram: 'Details pending',
-    color: 'Details pending', condition: 'Details pending', batteryHealth: 'Details pending', network: 'Details pending', warranty: 'Details pending',
-    priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-galaxy-z-flip8/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Details pending', processor: 'Details pending', camera: 'Details pending', operatingSystem: 'Details pending' }
+    id: 'samsung-galaxy-z-flip8', brand: 'Samsung', category: 'Samsung', model: 'Galaxy Z Flip8', storage: '256GB', ram: '12GB',
+    color: 'Graphite, Cream, Pink, Mint', condition: 'New', battery: '4,300mAh, 25W wired fast charging, 15W wireless charging, 4.5W reverse wireless charging', network: 'Details pending', warranty: '5G',
+    priceKes: 143000, stockStatus: 'In stock', images: ['./images/products/samsung/samsung-galaxy-z-flip8/1.jpeg'],
+    specifications: { display: ' 6.9-inch Dynamic LTPO AMOLED 2X, 120Hz refresh rate, peak brightness of 2,600 nits,Cover: 4.1-inch Super AMOLED FlexWindow', processor: 'Qualcomm Snapdragon 8 Elite Gen 5 for Galaxy (or Exynos 2600 depending on the region).', camera: 'Dual 50MP wide (OIS) + 12MP ultra-wide rear cameras, and a 10MP front selfie camera.', operatingSystem: 'Android 16' }
   },
   {
-    id: 'samsung-galaxy-z-fold8', brand: 'Samsung', category: 'Samsung', model: 'Galaxy Z Fold8', storage: 'Details pending', ram: 'Details pending',
-    color: 'Details pending', condition: 'Details pending', batteryHealth: 'Details pending', network: 'Details pending', warranty: 'Details pending',
-    priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-galaxy-z-fold8/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Details pending', processor: 'Details pending', camera: 'Details pending', operatingSystem: 'Details pending' }
+    id: 'samsung-galaxy-z-fold8', brand: 'Samsung', category: 'Samsung', model: 'Galaxy Z Fold8', storage: '256GB, 512GB, 1TB', ram: '12GB, 16GB',
+    color: 'Graphite, Cream, Violet, Shadow Blue', condition: 'New', batteryHealth: 'Detailed', network: '5G', warranty: '1 Year Manufacturer Warranty',
+    priceKes: 210000, stockStatus: 'In stock', images: ['./images/products/samsung/samsung-galaxy-z-fold8/1.jpeg'],
+    specifications: { display: '5.5 (Folded) 7.6 inches (Unfolded), Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)', processor: 'Qualcomm Snapdragon 8 Elite Gen 5 for Galaxy', camera: ' 50MP dual main camera setup and a 10MP front lens (with the Fold 8 Ultra variant offering an upgraded 200MP main camera', operatingSystem: 'Android 17, up to 7 major Android upgrades, One UI 9' }
   },
   {
-    id: 'samsung-galaxy-z-fold8-ultra', brand: 'Samsung', category: 'Samsung', model: 'Galaxy Z Fold8 Ultra', storage: 'Details pending', ram: 'Details pending',
-    color: 'Details pending', condition: 'Details pending', batteryHealth: 'Details pending', network: 'Details pending', warranty: 'Details pending',
-    priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-galaxy-z-fold8-ultra/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Details pending', processor: 'Details pending', camera: 'Details pending', operatingSystem: 'Details pending' }
+    id: 'samsung-galaxy-z-fold8-ultra', brand: 'Samsung', category: 'Samsung', model: 'Galaxy Z Fold8 Ultra', storage: '256GB, 512GB, 1TB', ram: '12GB, 16GB',
+    color: 'Graphite, Cream, Violet, Shadow Blue', condition: 'New', battery: '5,000mAh Silicon-Carbon Battery, 45W wired, 20W wireless, 4.5W reverse wireless charging', network: ' 5G', warranty: '1 Year Manufacturer Warranty',
+    priceKes: 225000, stockStatus: 'In stock', images: ['./images/products/samsung/samsung-galaxy-z-fold8-ultra/1.jpeg'],
+    specifications: { display: '6.5-inch (Folded), 8.0-inch (Unfolded), Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 3,000 nits (peak)', processor: 'Qualcomm Snapdragon 8 Elite Gen 5 (3nm)', camera: '200MP main rear camera, 50MP ultra-wide sensor (F1.9), and a 10MP telephoto lens with 3x optical zoom.', operatingSystem: ' Android 17 with One UI 9' }
   }
 ];
 
