@@ -29,6 +29,90 @@ window.PHONE_PLUS_PRODUCTS = [
     specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
   },
   {
+    id: 'oppo-reno-15f-5g', brand: 'OPPO', category: 'OPPO', model: 'Reno 15F 5G', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-reno-15f-5g/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'oppo-reno-15-pro', brand: 'OPPO', category: 'OPPO', model: 'Reno 15 Pro', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-reno-15-pro/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'oppo-reno-15-5g', brand: 'OPPO', category: 'OPPO', model: 'Reno 15 5G', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-reno-15-5g/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'oppo-find-x9', brand: 'OPPO', category: 'OPPO', model: 'Find X9', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-find-x9/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'oppo-find-x9-ultra', brand: 'OPPO', category: 'OPPO', model: 'Find X9 Ultra', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-find-x9-ultra/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'oppo-find-x9-pro', brand: 'OPPO', category: 'OPPO', model: 'Find X9 Pro', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-find-x9-pro/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'oppo-a78-4g', brand: 'OPPO', category: 'OPPO', model: 'A78 4G', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-a78-4g/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'oppo-a6x-4g', brand: 'OPPO', category: 'OPPO', model: 'A6X 4G', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-a6x-4g/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'oppo-a6-pro-5g', brand: 'OPPO', category: 'OPPO', model: 'A6 Pro 5G', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-a6-pro-5g/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'oppo-a6-4g', brand: 'OPPO', category: 'OPPO', model: 'A6 4G', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-a6-4g/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'oppo-a58-5g', brand: 'OPPO', category: 'OPPO', model: 'A58 5G', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-a58-5g/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'oppo-a18', brand: 'OPPO', category: 'OPPO', model: 'A18', storage: 'Add storage details', ram: 'Add RAM details',
+    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/oppo/oppo-a18/1.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
     id: 'pixel-8-128gb', brand: 'Google', category: 'Google', model: 'Pixel 8', storage: '128GB', ram: '8GB',
     color: 'Add color', condition: 'Ex-UK / Used', batteryHealth: 'Add battery health', network: 'Add SIM details',
     warranty: null, priceKes: null, stockStatus: 'Details pending', images: [],
