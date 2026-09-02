@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Phone Plus is a phone store based in Mombasa Town, Kenya, offering brand-new and Ex-UK / used phones.">
+  <meta name="description" content="Phone Plus is a phone store based in Mombasa Town, Kenya, offering brand-new and Ex-UK phones.">
   <title>Phone Plus | Phones, chosen with clarity</title>
   <link rel="stylesheet" href="./css/style.css">
   <script src="./js/config.js" defer></script><script src="./js/products.js" defer></script><script src="./js/cart.js" defer></script><script src="./js/components.js" defer></script><script src="./js/app.js" defer></script><script src="./js/home.js" defer></script>
@@ -13,16 +13,26 @@
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Mombasa Town · Nationwide delivery</p>
+        <p class="eyebrow">Mombasa Town &middot; Nationwide delivery</p>
         <h1>Your next<br><em>phone, clearly.</em></h1>
-        <p>Explore brand-new and Ex-UK / used phones with the details you need to choose confidently.</p>
-        <div class="hero-actions"><a class="button button-dark" href="./shop.html">Shop phones <span>↗</span></a><a class="hero-text-link" href="./about.html">Why Phone Plus <span>→</span></a></div>
+        <p>Explore brand-new and Ex-UK phones with the details you need to choose confidently.</p>
+        <div class="hero-actions"><a class="button button-dark" href="./shop.html">Shop phones <span aria-hidden="true">&nearr;</span></a><a class="hero-text-link" href="./about.html">Why Phone Plus <span aria-hidden="true">&rarr;</span></a></div>
       </div>
       <div class="hero-brand"><img src="./images/logo/phone-plus-logo.png" alt="Phone Plus"></div>
     </section>
-    <section class="home-search page"><div class="section-heading"><div><p class="eyebrow">Find your fit</p><h2>Search our phones</h2></div><a href="./shop.html">Advanced filters →</a></div><section class="filters" aria-label="Search phones"><label>Search <input id="home-search" type="search" placeholder="Search by brand or model"></label><label>Brand <select id="home-brand"><option value="">All brands</option></select></label></section></section>
-    <section class="section page"><div class="section-heading"><div><p class="eyebrow">Phone catalog</p><h2>Available phones</h2></div><a href="./shop.html">View all phones →</a></div><div class="product-grid" data-featured-products aria-live="polite"></div></section>
-    <section class="statement"><p class="eyebrow">The Phone Plus standard</p><h2>Clear details.<br>Confident choices.</h2><div class="statement-grid"><p>We make condition, specifications, and pricing easy to understand before you order.</p><a class="button button-light" href="./about.html">About Phone Plus ↗</a></div></section>
+    <section class="home-brands page" aria-labelledby="shop-by-brand-title">
+      <div class="section-heading"><div><p class="eyebrow">Find your fit</p><h2 id="shop-by-brand-title">Shop by brand</h2></div><a href="./shop.html">View all phones &rarr;</a></div>
+      <div class="brand-grid" data-brand-links></div>
+    </section>
+    <section class="section page home-product-section" aria-labelledby="featured-title">
+      <div class="section-heading"><div><p class="eyebrow">Selected for you</p><h2 id="featured-title">Featured phones</h2></div><a href="./shop.html">View all phones &rarr;</a></div>
+      <div class="product-grid" data-featured-products aria-live="polite"></div>
+    </section>
+    <section class="section page home-product-section home-new-arrivals" aria-labelledby="new-arrivals-title">
+      <div class="section-heading"><div><p class="eyebrow">Just added</p><h2 id="new-arrivals-title">New arrivals</h2></div><a href="./shop.html">Shop all phones &rarr;</a></div>
+      <div class="product-grid" data-new-arrival-products aria-live="polite"></div>
+    </section>
+    <section class="statement"><p class="eyebrow">The Phone Plus standard</p><h2>Clear details.<br>Confident choices.</h2><div class="statement-grid"><p>We make condition, specifications, and pricing easy to understand before you order.</p><a class="button button-light" href="./about.html">About Phone Plus &nearr;</a></div></section>
   </main>
   <footer data-site-footer></footer>
 </body>

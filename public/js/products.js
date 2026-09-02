@@ -3,7 +3,7 @@ window.PHONE_PLUS_CATEGORIES = [
 ];
 
 window.PHONE_PLUS_FILTERS = {
-  conditions: ['Brand New', 'Ex-UK / Used'],
+  conditions: ['Brand New', 'Ex-UK'],
   prices: [
     { value: '0-20000', label: 'Under KSh 20,000', min: 0, max: 20000 },
     { value: '20000-50000', label: 'KSh 20,000 - 50,000', min: 20000, max: 50000 },
@@ -19,6 +19,125 @@ window.PHONE_PLUS_PRODUCTS = [
     color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
     warranty: null, priceKes: null, stockStatus: 'Details pending', images: [],
     shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'iphone-17', brand: 'Apple', category: 'Apple', model: 'iPhone 17', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Brand New', batteryHealth: null, network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/iPhone 17.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'iphone-17-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 17 Pro', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Brand New', batteryHealth: null, network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/iPhone 17 Pro.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'iphone-17-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 17 Pro Max', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Brand New', batteryHealth: null, network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/iPhone 17 Pro Max.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-16-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 16 Pro', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 16 pro.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-16-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 16 Pro Max', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 16 pro max.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-15-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 15 Pro', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 15 pro.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-15-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 15 Pro Max', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 15 pro max.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-14-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 14 Pro', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 14 pro.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-14-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 14 Pro Max', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 14 pro max.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-13', brand: 'Apple', category: 'Apple', model: 'iPhone 13', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 13.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-13-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 13 Pro', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 13 pro.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-13-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 13 Pro Max', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 13 pro max.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-12', brand: 'Apple', category: 'Apple', model: 'iPhone 12', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 12.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-12-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 12 Pro', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 12 pro.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-12-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 12 Pro Max', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iphone 12 pro max.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-11', brand: 'Apple', category: 'Apple', model: 'iPhone 11', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iphone 11.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+  },
+  {
+    id: 'ex-uk-iphone-11-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 11 Pro', storage: 'Details pending', ram: null,
+    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iphone 11 pro.jpeg'],
+    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
     specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
   },
   {
@@ -112,8 +231,64 @@ window.PHONE_PLUS_PRODUCTS = [
     specifications: { display: '6.56-inch HD+ IPS LCD with a 90Hz refresh rate', processor: 'MediaTek Helio G85 (12nm)', camera: '8MP main sensor and 2MP portrait lensFront Camera: 5MP selfie shooter', operatingSystem: 'Android 13,ColorOS 13.1' }
   },
   {
+    id: 'vivo-v70-5g', brand: 'Vivo', category: 'Vivo', model: 'V70 5G', storage: '256GB, 512GB', ram: '8GB, 12GB',
+    color: 'Golden Hour, Alpine Gray (Sand Beige), Sandalwood Brown, Canary (Lemon) Yellow, Authentic Black, Passion Red', condition: 'Brand New', battery: '6500mAh, 90W FlashCharge', network: '5G, NFC, Bluetooth 5.4, GPS, Wi-Fi',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 73000, stockStatus: 'In Stock', images: ['./images/products/vivo/Vivo V70 5G.jpeg'],
+    shortDescription: '5G Phones, Best Camera Phone, Best Phone for Content Creators, Ksh 65000 to Ksh 85000, Ksh 70000 to Ksh 73000.',
+    specifications: { display: '6.59-inch AMOLED, 120Hz, 1260 × 2750 resolution', processor: 'Qualcomm Snapdragon 7 Gen 4 (4 nm)', camera: ' 50MP (wide) + 50MP (telephoto) + 8MP (ultrawide) main lens; 50MP autofocus selfie camera', operatingSystem: 'Android 16, up to 4 major Android upgrades, OriginOS 6' }
+  },
+  {
+    id: 'vivo-v70-fe-5G', brand: 'Vivo', category: 'Vivo', model: 'V70 FE 5G', storage: '256GB, 512GB', ram: '8GB',
+    color: 'Ocean Blue, Monsoon Blue, Muse Purple, Northern Lights Purple, Titanium Silver', condition: 'Brand New', battery: '7000mAh, 90W fast charging', network: '5G, Wi-Fi, Bluetooth, GPS, USB Type-C, OTG',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 54000, stockStatus: 'In Stock', images: ['./images/products/vivo/Vivo V70 FE 512 gb.jpeg'],
+    shortDescription: 'Best Battery Phone, Best Camera Phone, Best Phones Under 60000 in Kenya, Ksh 50000 to Ksh 55000.',
+    specifications: { display: '6.83-inch AMOLED, 120Hz refresh rate, 1.5K resolution, up to 1900 nits brightness', processor: 'Slim premium finish with flagship-grade build', camera: 'Primary – 200MP (OIS) + 8MP (ultra-wide); Selfie – up to 32MP', operatingSystem: 'Android 16, OriginOS 6' }
+  },
+  {
+    id: 'vivo-x300-pro', brand: 'Vivo', category: 'Vivo', model: 'X300 Pro', storage: '512GB', ram: '16GB',
+    color: 'ABlack, Blue, White, Brown', condition: 'Brand New', battery: '6510mAh, 90W wired', network: '5G, Wi-Fi, Bluetooth 5.4, GPS, NFC, USB 2.0.',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 152000, stockStatus: 'In Stock', images: ['./images/products/vivo/Vivo X300 Pro.jpeg'],
+    shortDescription: 'The phone is a powerhouse of innovation, blending cutting-edge design with elite performance.',
+    specifications: { display: '6.78-inch LTPO AMOLED', processor: 'Mediatek Dimensity 9500 (3 nm)', camera: ' 50MP + 200MP + 50MP Selfie Lens: 50MP', operatingSystem: 'Android 16, up to 4 major Android upgrades, OriginOS 6' }
+  },
+  {
+    id: 'vivo-y05', brand: 'Vivo', category: 'Vivo', model: 'Y05', storage: '64GB, 128GB', ram: '4GB',
+    color: 'Voyage Black, Haze Blue, Summit Platinum', condition: 'Brand New', battery: '6500mAh, 15W', network: '4G, 3.5mm jack port, USB-C, Bluetooth 5.2',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 18500, stockStatus: 'In Stock', images: ['./images/products/vivo/Vivo Y05.jpeg'],
+    shortDescription: 'Best Battery Phone, Best Student Phone, Ksh 15000 to Ksh 20000.',
+    specifications: { display: '6.74-inches, IPS LCD', processor: 'Unisoc T7225 (12 nm)', camera: '5MP Selfie, 8MP primary lens', operatingSystem: 'Android 16, OriginOS 6' }
+  },
+  {
+    id: 'vivo-y21d', brand: 'Vivo', category: 'Vivo', model: 'Y21d', storage: '128GB, 256GB', ram: '4GB, 6GB, 8GB',
+    color: 'Jade Green, Coral Red', condition: 'Brand New', battery: '6500mAh, 44W', network: '4G, Bluetooth 5.2, USB-C',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 22000, stockStatus: 'In Stock', images: ['./images/products/vivo/Vivo Y21d.jpeg'],
+    shortDescription: ' It is a rugged smartphone built for real-world resilience, combining military-grade durability with modern design and smart performance.',
+    specifications: { display: '6.68-inch IPS LCD', processor: 'T7225 (12nm)', camera: ' 50MP + 0.08MP Auxiliary Lens Selfie lens: 8MP', operatingSystem: 'Android 15, Funtouch OS 15' }
+  },
+  {
+    id: 'vivo-y31d', brand: 'Vivo', category: 'Vivo', model: 'Y31d', storage: '128GB, 256GB', ram: '4GB, 6GB',
+    color: 'Feather Gold, Glow White, Starlight Grey', condition: 'Brand New', battery: '7200mAh, 44W', network: '4G, Wi-Fi, Bluetooth 5.1, USB Type-C 2.0',
+    warranty: 'No Warranty', priceKes: 28500, stockStatus: 'In Stock', images: ['./images/products/vivo/Vivo Y31d.jpeg'],
+    shortDescription: 'Best Phones Under 30k in Kenya, Best Student Phone.',
+    specifications: { display: '6.75-inches, IPS', processor: 'Qualcomm Snapdragon 6s 4G Gen 2)', camera: '50MP + Auxiliary Lens Selfie Lens: 8MP', operatingSystem: 'Android 16, OriginOS 6' }
+  },
+  {
+    id: 'vivo-y500-5g', brand: 'Vivo', category: 'Vivo', model: 'Y500 5G', storage: '256GB', ram: '12GB/8GB',
+    color: 'Black, Blue, Purple', condition: 'Brand New', battery: '8200mAh, 90W', network: '5G, Wi-Fi 6, Bluetooth 5.4, NFC, GPS, optical under-display fingerprint reader, IP69',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 50000, stockStatus: 'In Stock', images: ['./images/products/vivo/Vivo Y500 5g.jpeg'],
+    shortDescription: '5G Phones, IP68/IP69+ dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 24 hours).',
+    specifications: { display: '6.77-inch AMOLED screen with 1080 × 2392 pixel resolution and a 120Hz refresh rate.', processor: 'MediaTek Dimensity 7300 octa-core chipset', camera: '50MP + Auxiliary Lens Selfie Lens: 8MP', operatingSystem: 'Android 15, OriginOS 5' }
+  },
+  {
+    id: 'vivo-y500', brand: 'Vivo', category: 'Vivo', model: 'Y5004G', storage: '256GB', ram: '6/8GB',
+    color: 'Midnight Blue, Pearl White', condition: 'Brand New', battery: '8,100mAh BlueVolt Silicon-Carbon Battery, 44W FlashCharge, Reverse Wired Charging, Bypass Charging', network: '4G LTE, Bluetooth 5.4, USB Type-C 2.0, GPS, Dual-Band Wi-Fi',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 43000, stockStatus: 'In Stock', images: ['./images/products/vivo/Vivo Y500.jpeg'],
+    shortDescription: '4G Phones, Best Battery Phone, Ksh 30000 to Ksh 42000, Ksh 40000 to Ksh 45000.',
+    specifications: { display: 'Add display details', processor: 'Unisoc T7300 (6nm)', camera: ' 50MP Main Camera + Auxiliary Lens, 32MP Front Camera', operatingSystem: 'Android 16, OriginOS 6' }
+  },
+  {
     id: 'pixel-8-128gb', brand: 'Google', category: 'Google', model: 'Pixel 8', storage: '128GB', ram: '8GB',
-    color: 'Add color', condition: 'Ex-UK / Used', batteryHealth: 'Add battery health', network: 'Add SIM details',
+    color: 'Add color', condition: 'Ex-UK', batteryHealth: 'Add battery health', network: 'Add SIM details',
     warranty: null, priceKes: null, stockStatus: 'Details pending', images: [],
     shortDescription: 'Product information will be added after stock is confirmed.',
     specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
