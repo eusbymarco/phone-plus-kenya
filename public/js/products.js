@@ -15,67 +15,60 @@ window.PHONE_PLUS_FILTERS = {
 
 window.PHONE_PLUS_PRODUCTS = [
   {
-    id: 'iphone-15-128gb', brand: 'Apple', category: 'Apple', model: 'iPhone 15', storage: '128GB', ram: null,
-    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: [],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'iphone-17', brand: 'Apple', category: 'Apple', model: 'iPhone 17', storage: '256GB,512GB', ram: '8GB',
+    color: 'Black, White, Mist Blue, Sage, Lavender.', condition: 'Brand New', batteryHealth:'3692mAh,Wired, PD2.0, 50% in 20 min' , network: '5G (Nano-SIM + eSIM + eSIM), Wifi 7, Bluetooth 6.0, NFC, GPS',
+    warranty: 'Warranty registration is the customer\'s responsibility', priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/iPhone 17.jpeg'],
+    shortDescription: 'A premium next-generation iPhone featuring a powerful performance, advanced camera system, vibrant display, and all-day battery life. Designed for smooth everyday use, photography, gaming, and entertainment.',
+    specifications: { display: '6.3-inch LTPO Super Retina XDR OLED', processor: 'Apple A19 (3 nm)', camera: '48M + 48MP Selfie Lens: 18MP', operatingSystem: 'iOS 26' }
   },
   {
-    id: 'iphone-17', brand: 'Apple', category: 'Apple', model: 'iPhone 17', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Brand New', batteryHealth: null, network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/iPhone 17.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'iphone-17-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 17 Pro', storage: '256GB, 512GB, 1TB', ram: '12GB',
+    color: 'Silver, Cosmic Orange, Deep Blue.', condition: 'Brand New', batteryHealth:'3988 mAh' , network: '5G, Nano-SIM, eSIM, Wi-Fi 7',
+    warranty: 'Warranty registration is the customer\'s responsibility', priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/iPhone 17 Pro.jpeg'],
+    shortDescription: 'A powerful premium iPhone designed for high performance, advanced photography, smooth everyday use, gaming, and all-day productivity',
+    specifications: { display: '6.3-inch LTPO Super Retina XDR OLED', processor: 'Apple A19 pro (3 nm)', camera: '48M + 48MP Selfie Lens: 18MP', operatingSystem: 'iOS 26' }
   },
   {
-    id: 'iphone-17-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 17 Pro', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Brand New', batteryHealth: null, network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/iPhone 17 Pro.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'iphone-17-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 17 Pro Max', storage: '256GB, 512GB, 1TB, 2TB', ram: '12GB',
+    color: 'Silver, Cosmic Orange, Deep Blue.', condition: 'Brand New', batteryHealth:'Li-Ion 4832 mAh – Nano SIM model; 5088 mAh – eSIM only model Wired, PD2.0, 50% in 20 min 25W wireless MagSafe/Qi2, 50% in 30 min (15W – China)' , network: '5G (Nano-SIM + eSIM + eSIM), Wifi 7, Bluetooth 6.0, NFC, GPS',
+    warranty: 'Warranty registration is the customer\'s responsibility', priceKes: 163000, stockStatus: 'in stock', images: ['./images/products/apple/iPhone 17 Pro Max.jpeg'],
+    shortDescription: 'The ultimate iPhone for performance and power, featuring a stunning display, advanced camera system, powerful performance, and exceptional battery life. Perfect for photography, gaming, entertainment, and demanding everyday use.',
+    specifications: { display: '6.9-inch LTPO Super Retina XDR OLED', processor: 'Apple A19 pro (3 nm)', camera: '48M + 48MP + 48MP Selfie Lens: 18MP', operatingSystem: 'iOS 26' }
   },
   {
-    id: 'iphone-17-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 17 Pro Max', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Brand New', batteryHealth: null, network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/iPhone 17 Pro Max.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'ex-uk-iphone-16-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 16 Pro', storage: '128GB, 256GB', ram: '8GB',
+    color: 'Black Titanium, White Titanium, Natural Titanium, Desert Titanium', condition: 'Ex-UK', batteryHealth: '3,582 mAh', network: '5G, Nano-SIM, eSIM, Wi-Fi 7',
+    warranty: 'Warranty registration is the customer\'s responsibility', priceKes: 14000, stockStatus: 'in stock', images: ['./images/products/apple/ex uk/iPhone 16 pro.jpeg'],
+    shortDescription: 'A premium iPhone built for powerful performance, advanced photography, a stunning display, and smooth everyday use. Ideal for gaming, content creation, entertainment, and productivity.',
+    specifications: { display: '6.3 inches', processor: 'Apple A18 Pro (3 nm)', camera: '48MP + 12 MP + 48MP Selfie: 12MP + SL 3D', operatingSystem: 'iOS 26' }
   },
   {
-    id: 'ex-uk-iphone-16-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 16 Pro', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 16 pro.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'ex-uk-iphone-16-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 16 Pro Max', storage: '256GB', ram: '8GB',
+    color: 'Black Titanium, White Titanium, Natural Titanium, Desert Titanium', condition: 'Ex-UK', batteryHealth: '4,685mAh (29 hours of video playback, 95 hours of audio playback)', network: '5G, Nano-SIM, eSIM, Wi-Fi 7',
+    warranty: 'Warranty registration is the customer\'s responsibility', priceKes: 155000, stockStatus: 'in stock', images: ['./images/products/apple/ex uk/iPhone 16 pro max.jpeg'],
+    shortDescription: 'A premium flagship iPhone featuring powerful performance, a stunning large display, advanced camera capabilities, and exceptional battery life. Perfect for photography, gaming, content creation, and everyday productivity.',
+    specifications: { display: '6.9 inches', processor: 'Apple A18 Pro Bionic', camera: '48MP + 12 MP + 48MP Selfie: 12MP + SL 3D', operatingSystem: 'iOS 26' }
   },
   {
-    id: 'ex-uk-iphone-16-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 16 Pro Max', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 16 pro max.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'ex-uk-iphone-15-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 15 Pro', storage: '256GB', ram: '8GB',
+    color: 'Black Titanium, White Titanium, Natural Titanium, ', condition: 'Ex-UK', batteryHealth: '3274 mAh', network: '5G, Nano-SIM, eSIM, Wi-Fi',
+    warranty: '1 year', priceKes: 86000, stockStatus: 'in stock', images: ['./images/products/apple/ex uk/iPhone 15 pro.jpeg'],
+    shortDescription: 'A powerful premium iPhone featuring a stunning Pro display, advanced camera system, fast performance, and a sleek titanium design. Perfect for photography, gaming, content creation, and everyday productivity.',
+    specifications: { display: '6.1 inches, OLED, 120Hz', processor: 'Apple A17 Pro (3 nm)', camera: '48MP + 12MP + 12MP + TOF 3D LiDAR Selfie: 12MP + SL 3D', operatingSystem: 'iOS 26' }
   },
   {
-    id: 'ex-uk-iphone-15-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 15 Pro', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 15 pro.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'ex-uk-iphone-15-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 15 Pro Max', storage: '256GB', ram: '8GB',
+    color: 'Black Titanium, White Titanium, Natural Titanium, ', condition: 'Ex-UK', batteryHealth: '4323 mAh', network: '5G, Nano-SIM, eSIM, Wi-Fi',
+    warranty: '1 year', priceKes: 94000, stockStatus: 'in stock', images: ['./images/products/apple/ex uk/iPhone 15 pro max.jpeg'],
+    shortDescription: 'A premium flagship iPhone with powerful performance, a large Pro display, advanced camera system, and excellent battery life. Perfect for photography, gaming, content creation, and demanding everyday use.',
+    specifications: { display: '6.7 inches, OLED, 120Hz', processor: 'Apple A17 Pro', camera: '48MP + 12MP + 12MP + TOF 3D LiDAR Selfie: 12MP + SL 3D', operatingSystem: 'iOS 26' }
   },
   {
-    id: 'ex-uk-iphone-15-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 15 Pro Max', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 15 pro max.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
-  },
-  {
-    id: 'ex-uk-iphone-14-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 14 Pro', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 14 pro.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'ex-uk-iphone-14-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 14 Pro', storage: '256GB', ram: '8GB',
+    color: 'Space Black, Silver, Gold, Deep Purple ', condition: 'Ex-UK', batteryHealth: '3Li-Ion 3200 mAh (12.38 Wh)', network: '5G, Nano-SIM, eSIM, Wi-Fi 6',
+    warranty: '1 year', priceKes: 69000, stockStatus: 'in stock', images: ['./images/products/apple/ex uk/iPhone 14 pro.jpeg'],
+    shortDescription: 'A refined flagship smartphone offering a bright Dynamic Island display, professional-grade cameras, and smooth, responsive performance. A great choice for users who want premium features in a compact Pro design.',
+    specifications: { display: '6.1-inch Super Retina XDR OLED (120Hz)', processor: 'Apple A16 Bionic', camera: '12MP + 12MP + TOF 3D LiDAR Selfie: 12MP + SL 3D', operatingSystem: 'iOS 26' }
   },
   {
     id: 'ex-uk-iphone-14-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 14 Pro Max', storage: 'Details pending', ram: null,
@@ -285,6 +278,48 @@ window.PHONE_PLUS_PRODUCTS = [
     warranty: '1 Year Manufacturer Warranty', priceKes: 43000, stockStatus: 'In Stock', images: ['./images/products/vivo/Vivo Y500.jpeg'],
     shortDescription: '4G Phones, Best Battery Phone, Ksh 30000 to Ksh 42000, Ksh 40000 to Ksh 45000.',
     specifications: { display: 'Add display details', processor: 'Unisoc T7300 (6nm)', camera: ' 50MP Main Camera + Auxiliary Lens, 32MP Front Camera', operatingSystem: 'Android 16, OriginOS 6' }
+  },
+  {
+    id: 'tecno-spark-50', brand: 'Tecno', category: 'Tecno', model: 'Spark 50', storage: '128GB,256GB', ram: '4GB',
+    color: 'Ink Black, Titanium Grey, Midnight Blue, Dynamic Orange', condition: 'Brand New', battery: 'Dual cell 5600mAh, 60W Super Charging', network: '4G / 4.5G LTE',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 19500, stockStatus: 'In Stock', images: ['./images/products/Tecno/Tecno Spark 50.jpeg'],
+    shortDescription: 'A stylish everyday smartphone offering reliable performance, a smooth display, capable cameras,IP64 water and dust resistance and long-lasting battery life. A great choice for entertainment, social media, and daily use.',
+    specifications: { display: '6.78-inch IPS LCD', processor: 'Helio G81', camera: ' 50MP primary camera, 8MP selfie lens', operatingSystem: 'Android 16, HIOS 16' }
+  },
+  {
+    id: 'tecno-spark-50-pro', brand: 'Tecno', category: 'Tecno', model: 'Spark 50 Pro', storage: '128GB,256GB', ram: '4GB',
+    color: 'Halo Blue / Titanium Grey / Ink Black / Aurora Purple / Bloom Pink', condition: 'Brand New', battery: '6700mAh with 18W fast wired charging', network: '4G / 4.5G LTE Connectivity: Wi-Fi, Bluetooth 5.4, GPS/GNSS, NFC, FM Radio, Infrared, USB Type-C',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 25000, stockStatus: 'In Stock', images: ['./images/products/Tecno/Tecno Spark 50 Pro.jpeg'],
+    shortDescription: 'A sleek and capable smartphone built for smooth everyday performance, vibrant entertainment, and reliable photography. With generous storage and memory, it’s a great choice for users who want strong features at an affordable price.',
+    specifications: { display: '6.78-inch HD+ IPS LCD, 120Hz refresh rate', processor: 'MediaTek Helio G100 Ultimate', camera: ' 8MP selfie camera; 50MP Sony LYTIA 600 main camera lens', operatingSystem: 'Android 16, HIOS 16' }
+  },
+  {
+    id: 'tecno-pova-curve-2-5g', brand: 'Tecno', category: 'Tecno', model: 'POVA Curve 2 5G', storage: '256GB', ram: '12GB',
+    color: 'Mystic purple,melting silver,storm Titanium', condition: 'Brand New', battery: '8000mAh, 45W fast charging.', network: '5G, Wi-Fi 6, Bluetooth 5.4, GPS, NFC',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 60000, stockStatus: 'In Stock', images: ['./images/products/Tecno/Tecno POVA Curve 2 5G.jpeg'],
+    shortDescription: 'A performance-focused 5G smartphone built for fast connectivity, smooth multitasking, immersive entertainment, and gaming.IP64 dust and splash resistance Its generous memory and storage make it ideal for users who want powerful everyday performance.',
+    specifications: { display: '6.78-inch 144Hz curved AMOLED', processor: 'MediaTek Dimensity 7100 (6nm)', camera: '50MP + 2MP Front Camera: 13MP', operatingSystem: 'Android 16, HIOS 16' }
+  },
+  {
+    id: 'tecno-pop-20', brand: 'Tecno', category: 'Tecno', model: 'Pop 20', storage: '64GB, 128GB', ram: '4GB',
+    color: 'Ink Black, Titanium Grey, Aurora Purple, Galaxy Blue', condition: 'Brand New', battery: '5000mAh', network: 'Dual Nano SIM, 4G LTE, Wi-Fi, Bluetooth, GPS',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 15500, stockStatus: 'In Stock', images: ['./images/products/Tecno/Tecno Pop 20.jpeg'],
+    shortDescription: 'A practical and affordable smartphone designed for everyday essentials, with dependable performance, a clear display, capable cameras, and a battery built to keep you connected throughout the day.',
+    specifications: { display: 'Quad-core UNISOC T7250 processor', processor: 'Quad-core UNISOC T7250 processor', camera: ' 5MP selfie camera; 13MP main camera lens', operatingSystem: 'Android 15, HIOS 15' }
+  },
+  {
+    id: 'tecno-camon-50', brand: 'Tecno', category: 'Tecno', model: 'Camon 50', storage: '256GB', ram: '8GB',
+    color: 'Moonlight black, Malachite green, Nebula titanium, Fir green, Lavender mist, Mint', condition: 'Brand New', battery: '6150mAh with 45W fast charging', network: 'Dual Nano SIM, 4G LTE, Wi-Fi, Bluetooth, GPS, USB-C',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 35000, stockStatus: 'In Stock', images: ['./images/products/Tecno/Tecno Camon 50.jpeg'],
+    shortDescription: 'A stylish camera-focused smartphone designed for everyday creativity, with smooth performance, immersive entertainment, and versatile photography. A strong option for users who value both looks and camera capabilities.',
+    specifications: { display: '6.78-inch AMOLED, 1.5K resolution, 144Hz refresh rate', processor: 'MediaTek Helio G100 Ultimate processor', camera: '50MP Front Camera: 32MP', operatingSystem: 'Android 15, HIOS 16' }
+  },
+  {
+    id: 'tecno-camon-50-pro', brand: 'Tecno', category: 'Tecno', model: 'Camon 50 Pro', storage: '256GB', ram: '8GB',
+    color: 'Moonlight Black, Nebula Titanium, Malachite Green, Fir Green, Lavender Mist, Ethereal Blue', condition: 'Brand New', battery: '6150mAh battery with 45W fast charging', network: 'Dual Nano SIM, 4G LTE, Wi-Fi, Bluetooth, GPS, USB-C',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 42500, stockStatus: 'In Stock', images: ['./images/products/Tecno/Tecno Camon 50 Pro.jpeg'],
+    shortDescription: 'A premium camera-focused smartphone combining powerful performance, impressive photography, a vibrant display, and ample storage. Designed for users who want a stylish device for capturing content, gaming, and everyday entertainment.',
+    specifications: { display: '6.78-inch AMOLED, 1.5K resolution, 144Hz refresh rate', processor: 'MediaTek Helio G200 Ultimate processor', camera: '50MP main + 50MP telephoto camera (3x optical zoom, 60x AI zoom) + 8MP ultra-wide camera Front Camera: 32MP', operatingSystem: 'Android 15, HIOS 16' }
   },
   {
     id: 'pixel-8-128gb', brand: 'Google', category: 'Google', model: 'Pixel 8', storage: '128GB', ram: '8GB',

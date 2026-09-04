@@ -55,6 +55,12 @@ nav a.active,nav a:hover{color:var(--accent)}
 .home-search+.section .product-card strong{margin-top:12px}
 @media(max-width:700px){.home-search.page{padding-bottom:12px;padding-top:28px}.home-search .section-heading{gap:10px;margin-bottom:16px}.home-search .filters{gap:10px}.home-search+.section.page{padding-bottom:52px;padding-top:28px}.home-search+.section .section-heading{gap:10px;margin-bottom:20px}}
 
+/* Homepage search and rotating latest-model display. */
+.header-inner{justify-content:flex-start}.primary-nav{margin-left:0}.header-actions{margin-left:auto}
+.phone-search-form{align-items:end;display:grid;gap:12px;grid-template-columns:minmax(0,1fr) minmax(180px,.45fr) auto;max-width:none;margin:0}.phone-search-form label{font-weight:700}.phone-search-form input,.phone-search-form select{height:46px;width:100%}.phone-search-form .button{align-items:center;height:46px;white-space:nowrap}
+.hero-phone-carousel{align-items:center;align-self:stretch;background:var(--ink);box-shadow:16px 16px 0 rgba(23,105,209,.18);display:grid;min-height:300px;overflow:hidden;position:relative}.hero-phone{align-items:center;color:var(--white);display:grid;grid-column:1;grid-row:1;grid-template-rows:1fr auto;height:100%;opacity:0;padding:23px;pointer-events:none;transform:translateX(20px);transition:opacity .55s ease,transform .55s ease}.hero-phone.is-active{opacity:1;pointer-events:auto;transform:translateX(0)}.hero-phone img{height:220px;justify-self:center;max-width:72%;object-fit:contain;transition:transform .55s ease}.hero-phone.is-active img{transform:rotate(-5deg) scale(1.03)}.hero-phone-label{color:var(--accent);font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.08em;position:absolute;right:23px;text-transform:uppercase;top:23px}.hero-phone div{align-items:end;border-top:1px solid #343b48;display:flex;justify-content:space-between;padding-top:13px}.hero-phone strong{font-size:1rem}.hero-phone small{color:#aeb7c6;font-family:'DM Mono',monospace;font-size:.58rem;text-transform:uppercase}
+@media(max-width:700px){.phone-search-form{grid-template-columns:1fr}.phone-search-form .button{justify-content:space-between;width:100%}.hero-phone-carousel{min-height:360px}.hero-phone img{height:250px}}
+
 /* Denser catalog: more phones visible without losing product detail clarity. */
 .product-grid{gap:16px;grid-template-columns:repeat(4,minmax(0,1fr))}
 .product-visual{aspect-ratio:1/1.05}
@@ -88,3 +94,31 @@ nav a.active,nav a:hover{color:var(--accent)}
 .add-product:hover{background:#1257af;border-color:#1257af;transform:translateY(-1px)}
 .add-product:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 .add-product:disabled{background:#e5e8ec;border-color:#e5e8ec;color:#7b8490;cursor:not-allowed;transform:none}
+
+/* New arrivals hero showcase. */
+.hero-phone-carousel{align-self:center;background:transparent;box-shadow:none;display:block;min-height:0;overflow:visible;transition:opacity .26s ease,transform .26s ease}
+.hero-phone-carousel.is-changing{opacity:0;transform:translateY(8px)}
+.arrivals-heading{align-items:end;display:flex;justify-content:space-between;margin-bottom:18px}
+.arrivals-heading .eyebrow{margin-bottom:7px}
+.arrivals-heading h2{font-size:clamp(1.8rem,3vw,2.65rem);letter-spacing:-.06em;line-height:1;margin:0}
+.arrivals-heading>span{color:var(--muted);font-family:'DM Mono',monospace;font-size:.6rem;padding-bottom:3px}
+.arrivals-grid{display:grid;gap:10px;grid-template-columns:repeat(4,minmax(0,1fr))}
+.arrival-card{background:var(--white);border:1px solid var(--line);border-radius:7px;display:flex;flex-direction:column;min-width:0;padding:9px;transition:border-color .2s ease,box-shadow .2s ease,transform .2s ease}
+.arrival-card:hover{border-color:#a9c8f3;box-shadow:0 10px 24px rgba(17,19,24,.09);transform:translateY(-3px)}
+.arrival-card>a{display:block;min-width:0}
+.arrival-card .product-visual{aspect-ratio:1/.98;background:#f5f7fa;border-radius:4px;min-height:0}
+.arrival-card .product-visual img{height:82%;max-width:82%;transform:none}
+.arrival-card-info{padding:10px 2px 6px}
+.arrival-card-info>span{color:var(--accent);font-family:'DM Mono',monospace;font-size:.52rem;font-weight:500;text-transform:uppercase}
+.arrival-card-info h3{font-size:.78rem;line-height:1.25;margin:7px 0 9px;min-height:2.5em}
+.arrival-card-info strong{display:block;font-size:.78rem}
+.arrival-card .add-product{border-radius:4px;font-size:.59rem;margin-top:auto;min-height:29px;padding:6px 5px;width:100%}
+@media(max-width:1050px){.arrivals-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.arrival-card .product-visual{aspect-ratio:1/.82}}
+@media(max-width:700px){.hero-phone-carousel{width:100%}.arrivals-heading{margin-bottom:15px}.arrivals-grid{gap:9px}.arrival-card{padding:8px}.arrival-card-info h3{font-size:.72rem}.arrival-card-info{padding-top:8px}}
+@media(max-width:440px){.arrivals-grid{grid-template-columns:1fr 1fr}.arrival-card .product-visual{aspect-ratio:1/.86}.arrival-card-info h3{font-size:.68rem}.arrival-card-info strong{font-size:.7rem}}
+
+/* Keep every primary action on the same Phone Plus button system. */
+.button,.button-dark,.button-accent,.button-light{align-items:center;background:var(--accent);border:1px solid var(--accent);border-radius:5px;color:var(--white);font-weight:800;justify-content:center;transition:background .18s ease,border-color .18s ease,transform .18s ease}
+.button:hover,.button-dark:hover,.button-accent:hover,.button-light:hover{background:#1257af;border-color:#1257af;color:var(--white);transform:translateY(-1px)}
+.button:focus-visible,.button-dark:focus-visible,.button-accent:focus-visible,.button-light:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.button:disabled,.button-dark:disabled,.button-accent:disabled,.button-light:disabled{background:#e5e8ec;border-color:#e5e8ec;color:#7b8490;cursor:not-allowed;transform:none}

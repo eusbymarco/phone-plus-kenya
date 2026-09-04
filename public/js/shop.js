@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
   window.PHONE_PLUS_FILTERS.storages.forEach((option) => storage.insertAdjacentHTML('beforeend', `<option>${option}</option>`));
   window.PHONE_PLUS_FILTERS.rams.forEach((option) => ram.insertAdjacentHTML('beforeend', `<option>${option}</option>`));
   const requestedBrand = params.get('brand');
+  const requestedSearch = params.get('search');
+  if (requestedSearch) search.value = requestedSearch;
   if (requestedBrand && window.PHONE_PLUS_CATEGORIES.includes(requestedBrand)) brand.value = requestedBrand;
   [search, brand, condition, price, storage, ram].forEach((control) => control.addEventListener('input', render));
   render();
