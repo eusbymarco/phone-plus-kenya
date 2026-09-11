@@ -38,7 +38,7 @@ window.PHONE_PLUS_PRODUCTS = [
   {
     id: 'ex-uk-iphone-16-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 16 Pro', storage: '128GB, 256GB', ram: '8GB',
     color: 'Black Titanium, White Titanium, Natural Titanium, Desert Titanium', condition: 'Ex-UK', batteryHealth: '3,582 mAh', network: '5G, Nano-SIM, eSIM, Wi-Fi 7',
-    warranty: 'Warranty registration is the customer\'s responsibility', priceKes: 14000, stockStatus: 'in stock', images: ['./images/products/apple/ex uk/iPhone 16 pro.jpeg'],
+    warranty: 'Warranty registration is the customer\'s responsibility', priceKes: 114000, stockStatus: 'in stock', images: ['./images/products/apple/ex uk/iPhone 16 pro.jpeg'],
     shortDescription: 'A premium iPhone built for powerful performance, advanced photography, a stunning display, and smooth everyday use. Ideal for gaming, content creation, entertainment, and productivity.',
     specifications: { display: '6.3 inches', processor: 'Apple A18 Pro (3 nm)', camera: '48MP + 12 MP + 48MP Selfie: 12MP + SL 3D', operatingSystem: 'iOS 26' }
   },
@@ -224,6 +224,111 @@ window.PHONE_PLUS_PRODUCTS = [
     specifications: { display: '6.56-inch HD+ IPS LCD with a 90Hz refresh rate', processor: 'MediaTek Helio G85 (12nm)', camera: '8MP main sensor and 2MP portrait lensFront Camera: 5MP selfie shooter', operatingSystem: 'Android 13,ColorOS 13.1' }
   },
   {
+    id: 'infinix-smart-20', brand: 'Infinix', category: 'Infinix', model: 'Smart 20', storage: '64GB, 128GB', ram: '4GB',
+    color: 'Shadow Black, Cloudline Blue, Polaris Titanium, Sunlike Orange', condition: 'Brand New', battery: '5200mAh, 15W wired', network: '4G, Wi-Fi, 3.5mm jack port, FM Radio, Bluetooth, NFC, Infrared port',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 16000, stockStatus: 'In Stock', images: ['./images/products/infinix/infinix Smart 20.jpeg'],
+    shortDescription: 'A stylish and affordable smartphone made for everyday life, delivering smooth performance, a vibrant display, reliable cameras, and dependable battery life. Perfect for social media, entertainment, and staying connected without breaking the budget.',
+    specifications: { display: '6.78-inch IPS LCD', processor: 'Mediatek Helio G81 Ultimate (12 nm)', camera: ' 8MP Primary lens, 8MP selfie lens', operatingSystem: 'Android 16, XOS 16' }
+  },
+  {
+    id: 'infinix-note-edge', brand: 'Infinix', category: 'Infinix', model: 'Note Edge', storage: '256GB', ram: '8GB',
+    color: 'Silk Green, Lunar titanium, Shadow Black, Stellar Blue', condition: 'Brand New', battery: '6,150 mAh, 45W wired', network: '5G, Wi-Fi 6, Bluetooth 5.4, USB Type-C, Infrared Port',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 34500, stockStatus: 'In Stock', images: ['./images/products/infinix/infinix Note EDGE.jpeg'],
+    shortDescription: 'delivers a strong balance of modern design, durability, performance, and long-lasting power, making it a competitive mid-range option in 2026.',
+    specifications: { display: '6.67-inch IPS LCD, 120Hz, 4500 nits', processor: 'Mediatek Dimensity 7100 (6nm)', camera: ' 50MP Primary lens, 13MP selfie lens', operatingSystem: 'Android 16, XOS 16 Upgradable up to 3 Versions' }
+  },
+  {
+    id: 'infinix-note-60-pro', brand: 'Infinix', category: 'Infinix', model: 'Note 60 Pro', storage: '256GB', ram: '8GB',
+    color: ' Mist Titanium, Deep Ocean Blue, Solar Orange, Mocha Brown, Torino Black, Frost Silver', condition: 'Brand New', battery: '6000mAh 90W wired', network: '5G, Wi-Fi 6, Bluetooth 5.4, USB Type-C, Infrared Port',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 34500, stockStatus: 'In Stock', images: ['./images/products/infinix/infinix note 60 pro.jpeg'],
+    shortDescription: 'A powerful and versatile smartphone designed for users who demand high performance and advanced features.',
+    specifications: { display: '6.78-inch IPS LCD, 120Hz, 4500 nits', processor: ' Qualcomm SM7635-AC Snapdragon 7s Gen 4 (4 nm)', camera: ' 50MP +8MP  Secondary lens, 13MP selfie lens', operatingSystem: 'Android 16, up to 3 major Android upgrades, XOS 16' }
+  },
+  {
+    id: 'infinix-note-50-pro', brand: 'Infinix', category: 'Infinix', model: 'Note 50 Pro', storage: '256GB', ram: ' 8GB',
+    color: 'Titanium Grey, Enchanted Purple, Racing Edition, Shadow Black', condition: 'Brand New', battery: '5200mAh, 90W', network: 'G, Wi-Fi, Bluetooth 5.4, GPS, NFC, Infrared port, FM Radio',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 32000, stockStatus: 'In Stock', images: ['./images/products/infinix/infinix note 50 pro.jpeg'],
+    shortDescription: 'When it comes to performance, it delivers! Running on Android 15, up to 2 major Android upgrades, XOS 15, this phone will serve you right. Friendly UI and the latest Android apps are readily available for your exploration and use.',
+    specifications: { display: '6.78 inches, AMOLED', processor: 'Mediatek Helio G100 Ultimate (6nm)', camera: ' 50MP +8MP Secondary lens, 32MP selfie lens', operatingSystem: 'Android 15, up to 2 major Android upgrades, XOS 15' }
+  },
+  {
+    id: 'infinix-hot-70', brand: 'Infinix', category: 'Infinix', model: 'Hot 70', storage: '128GB, 256GB', ram: '4GB, 6GB',
+    color: 'Night Pulse, Dive Blue, Silver Dancer, Thermo Orange, Green Texture, Quiet Violet', condition: 'Brand New', battery: '6000mAh, 45W', network: '4G,Bluetooth 5.4, GPS, NFC, FM Radio, Infrared port',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 19000, stockStatus: 'In Stock', images: ['./images/products/infinix/Infinix Hot 70.jpeg'],
+    shortDescription: 'Powered by the MediaTek Helio G100 Ultimate processor, the Infinix Hot 70 4G handles multitasking, entertainment, and daily applications efficiently.',
+    specifications: { display: '6.78-inch, IPS LCD', processor: 'Mediatek Helio G100 Ultimate (6nm)', camera: ' 50MP + Secondary lens, 8MP selfie lens', operatingSystem: 'Android 16, up to 3 major Android upgrades, XOS 16' }
+  },
+  {
+    id: 'infinix-hot-70-pro-5g', brand: 'Infinix', category: 'Infinix', model: 'Hot 70 Pro 5G', storage: '256GB', ram: '8GB',
+    color: 'Night Pulse, Dive Blue, Silver Dancer, Thermo Orange, Green Texture, Quiet Violet', condition: 'Brand New', battery: '6000mAh, 45W', network: '5G, Bluetooth 5.4, GPS, NFC, FM Radio, Infrared port',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 36500, stockStatus: 'In Stock', images: ['./images/products/infinix/infinix Hot 70 Pro 5G.jpeg'],
+    shortDescription: 'Experience fast 5G connectivity, smooth performance, and immersive entertainment with the Infinix Hot 70 Pro 5G. Built for gaming, streaming, social media, and everyday multitasking, it delivers the power and style you want at a competitive price.',
+    specifications: { display: '144Hz Smooth Display for Gaming and Entertainment', processor: 'MediaTek Dimensity 7100 5G Performance', camera: ' 50MP Sony IMX882 main AI camera.Front Camera: 13MP selfie lens.', operatingSystem: 'Android 16 with XOS 16' }
+  },
+  {
+    id: 'redmi-17-pro-max', brand: 'Redmi', category: 'Redmi', model: '17 Pro Max', storage: '512GB', ram: '12GB, 16GB',
+    color: 'Black, White, Purple, Green', condition: 'Brand New', battery: '7500mAh, 100W wired+ 50W wireless + 22.5W Reverse wired', network: '5G, Bluetooth 5.4, USB-C 3.2, NFC, Infrared port',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 129000, stockStatus: 'In Stock', images: ['./images/products/Redmi/Redmi 17 pro max.jpeg'],
+    shortDescription: 'Power through your day with the Redmi 17 Pro Max, combining powerful performance, a vibrant display, advanced cameras, and impressive battery endurance. A great choice for gaming, entertainment, photography, and demanding everyday use.',
+    specifications: { display: '6.9-inch LTPO AMOLED', processor: 'Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)', camera: '50MP + 50MP + 50MP Selfie lens: 50MP (wide)', operatingSystem: 'Android 16, HyperOS 3' }
+  },
+  {
+    id: 'redmi-17-4g', brand: 'Redmi', category: 'Redmi', model: '17 4G', storage: ' 128/256GB', ram: '4/6GB',
+    color: 'Black, Deep Blue, Lotus Purple, and Oak Green', condition: 'Brand New', battery: 'Si/C Li-Ion 7500 mAh, 45W', network: '4G, WI-FI, Bluetooth 5.4, USB Type-C, NFC, IR',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 25000, stockStatus: 'In Stock', images: ['./images/products/Redmi/Redmi 17 4G.jpeg'],
+    shortDescription: 'suits users who prioritize large-screen entertainment, exceptional battery endurance, expandable storage, and practical everyday functionality',
+    specifications: { display: '6.9-inch IPS LCD', processor: 'Mediatek Helio G91 Ultra (12 nm)', camera: '50MP + 48MP + 48MP Selfie lens: 42MP (wide)', operatingSystem: 'Android 16, HyperOS 3' }
+  },
+  {
+    id: 'redmi-15c', brand: 'Redmi', category: 'Redmi', model: '15C', storage: '128GB, 256GB', ram: '4/6/8GB',
+    color: 'Moonlight Blue, Mint Green, Midnight Gray, Twilight Orange', condition: 'Brand New', battery: ' 6,000mAh, 33W.', network: '4G, Wi-fi, 3.5mm jack port, Bluetooth 5.4, NFC',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 18500, stockStatus: 'In Stock', images: ['./images/products/Redmi/Redmi 15C.jpeg'],
+    shortDescription: ' It redefines what you should expect from a budget smartphone. Built for users who demand speed, stamina, and style, this device delivers exceptional value without cutting corners. Whether you’re a multitasker, gamer, or content creator, the Redmi 15C gives you the tools to do more—faster.',
+    specifications: { display: '6.9-inch IPS LCD', processor: 'Mediatek Helio G81 Ultra (12 nm)', camera: ' 50MP + QVGA Selfie Lens: 8MP', operatingSystem: 'Android 15, HyperOS 3' }
+  },
+  {
+    id: 'redmi-a7-pro', brand: 'Redmi', category: 'Redmi', model: 'A7 Pro', storage: '64GB, 128GB', ram: '4GB',
+    color: ' Black, Mist Blue, Palm Green, Sunset Orange.', condition: 'Brand New', battery: '6000mAh with 15W fast charging', network: 'G, Wi-Fi, Bluetooth 5.2, USB-C',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 15500, stockStatus: 'In Stock', images: ['./images/products/Redmi/redmi a7 pro.jpeg'],
+    shortDescription: 'For users in Kenya looking for a budget smartphone with a large display, long battery life, and smooth performance, the Redmi A7 Pro stands out as a reliable, value-driven choice.',
+    specifications: { display: '6.9-inch IPS LCD', processor: 'Unisoc T7250 (12 nm)', camera: '13MP Selfie Lens: 8MP', operatingSystem: 'Android 16, HyperOS 3' }
+  },
+  {
+    id: 'redmi-Note-17-pro', brand: 'Redmi', category: 'Redmi', model: 'Note 17 Pro', storage: '128GB, 256GB', ram: '6GB, 8GB, 12GB',
+    color: 'Black, White, Blue.', condition: 'Brand New', battery: 'Li-Ion 5800mAh', network: '5G, Wi-Fi, Bluetooth 5.1, NFC, Infrared',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 42000, stockStatus: 'In Stock', images: ['./images/products/Redmi/Redmi 17 pro.jpeg'],
+    shortDescription: 'Experience rugged brilliance and flagship-grade performance with the Redmi Note 17 Pro—a mid-range marvel built to endure and impress.',
+    specifications: { display: '6.77-inch AMOLED', processor: 'Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm)', camera: '50MP + Auxiliary lens, 8MP selfie lens', operatingSystem: 'Android 15, HyperOS 2' }
+  },
+  {
+    id: 'redmi-a7', brand: 'Redmi', category: 'Redmi', model: 'A7', storage: '4GB, with MicroSD option', ram: '3GB',
+    color: 'Black, Sky Blue, Orchid Purple.', condition: 'Brand New', battery: ' 5,200mAh', network: '4G',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 14000, stockStatus: 'In Stock', images: ['./images/products/Redmi/Redmi A7.jpeg'],
+    shortDescription: 'For users in Kenya looking for a budget smartphone with a large display, long battery life, and smooth performance, the Redmi A7 stands out as a reliable, value-driven choice.',
+    specifications: { display: '6.88 inches, IPS LCD', processor: 'Octa-core Unisoc T7250 (12nm) chipset.', camera: '3MP AI rear main camera and an 8MP front-facing selfie shooter.', operatingSystem: 'Android 15, HyperOS 2' }
+  },
+  {
+    id: 'redmi-note-15', brand: 'Redmi', category: 'Redmi', model: 'Note 15', storage: '256GB', ram: '8GB',
+    color: 'Black, Forest Green, Glacier Blue, Purple', condition: 'Brand New', battery: '6000mAh, 33W', network: 'Wi-Fi, Bluetooth v5.3, USB Type-C 2.0, NFC',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 31500, stockStatus: 'In Stock', images: ['./images/products/Redmi/Redmi Note 15.jpeg'],
+    shortDescription: 'Designed for users seeking a reliable mid-range phone with strong performance, a premium display, and long battery life, the Redmi Note 15 4G delivers excellent value for money in its segment.',
+    specifications: { display: '6.77 MP AMOLED', processor: 'Mediatek Helio G100 Ultra (6 nm)', camera: '108MP + Auxiliary Lens Selfie Lens: 20MP', operatingSystem: 'Android 15, up to 4 major Android upgrades, HyperOS 2' }
+  },
+  {
+    id: 'redmi-note-15-pro', brand: 'Redmi', category: 'Redmi', model: 'Note 15 Pro', storage: ' 256GB', ram: '8GB',
+    color: 'Black, Glacier Blue, Mist Purple, Titanium', condition: 'Brand New', battery: '6500mAh, 45W', network: 'Wi-Fi, Bluetooth v5.3, USB Type-C 2.0, NFC',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 39000, stockStatus: 'In Stock', images: ['./images/products/Redmi/Redmi Note 15 Pro.jpeg'],
+    shortDescription: 'Designed for users seeking a reliable mid-range phone with strong performance, a premium display, and long battery life, the Redmi Note 15 Pro delivers excellent value for money in its segment.',
+    specifications: { display: '6.77 MP AMOLED', processor: 'Mediatek Helio G100 Ultra (4 nm)', camera: '200MP + 8MP Selfie Lens: 32MP', operatingSystem: 'Android 15, up to 4 major Android upgrades, HyperOS 2' }
+  },
+  {
+    id: 'redmi-note-15-pro-plus', brand: 'Redmi', category: 'Redmi', model: 'Note 15 Pro Plus', storage: '256GB , 512GB', ram: '8gb,12gb',
+    color: 'Glacier Blue, Mocha Brown, Black', condition: 'Brand New', battery: '6500mAh, 100W', network: '5G, Wi-Fi, Bluetooth v5.4, USB Type-C 2.0, NFC',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 53000, stockStatus: 'In Stock', images: ['./images/products/Redmi/Redmi Note 15 Pro plus.jpeg'],
+    shortDescription: 'The Note is designed for users who want flagship-level performance, advanced photography, and long-lasting reliability in one powerful smartphone. ',
+    specifications: { display: '6.83 MP AMOLED', processor: 'Snapdragon 7s Gen 4 (4 nm)', camera: '200MP + 8MP Selfie Lens: 32MP', operatingSystem: 'Android 15, up to 4 major Android upgrades, HyperOS 2' }
+  },
+  {
     id: 'vivo-v70-5g', brand: 'Vivo', category: 'Vivo', model: 'V70 5G', storage: '256GB, 512GB', ram: '8GB, 12GB',
     color: 'Golden Hour, Alpine Gray (Sand Beige), Sandalwood Brown, Canary (Lemon) Yellow, Authentic Black, Passion Red', condition: 'Brand New', battery: '6500mAh, 90W FlashCharge', network: '5G, NFC, Bluetooth 5.4, GPS, Wi-Fi',
     warranty: '1 Year Manufacturer Warranty', priceKes: 73000, stockStatus: 'In Stock', images: ['./images/products/vivo/Vivo V70 5G.jpeg'],
@@ -322,9 +427,30 @@ window.PHONE_PLUS_PRODUCTS = [
     specifications: { display: '6.78-inch AMOLED, 1.5K resolution, 144Hz refresh rate', processor: 'MediaTek Helio G200 Ultimate processor', camera: '50MP main + 50MP telephoto camera (3x optical zoom, 60x AI zoom) + 8MP ultra-wide camera Front Camera: 32MP', operatingSystem: 'Android 15, HIOS 16' }
   },
   {
-    id: 'pixel-8-128gb', brand: 'Google', category: 'Google', model: 'Pixel 8', storage: '128GB', ram: '8GB',
-    color: 'Add color', condition: 'Ex-UK', batteryHealth: 'Add battery health', network: 'Add SIM details',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: [],
+    id: 'pixel-7', brand: 'Google', category: 'Google', model: 'Pixel 7', storage: 'Add storage', ram: 'Add RAM',
+    color: 'Add color', condition: 'Details pending', batteryHealth: 'Add battery health', network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/google/Google Pixel 7.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'pixel-7a', brand: 'Google', category: 'Google', model: 'Pixel 7a', storage: 'Add storage', ram: 'Add RAM',
+    color: 'Add color', condition: 'Details pending', batteryHealth: 'Add battery health', network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/google/Google Pixel 7a.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'pixel-8-pro', brand: 'Google', category: 'Google', model: 'Pixel 8 Pro', storage: 'Add storage', ram: 'Add RAM',
+    color: 'Add color', condition: 'Details pending', batteryHealth: 'Add battery health', network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/google/Google Pixel 8 Pro.jpeg'],
+    shortDescription: 'Product information will be added after stock is confirmed.',
+    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+  },
+  {
+    id: 'pixel-8a', brand: 'Google', category: 'Google', model: 'Pixel 8a', storage: 'Add storage', ram: 'Add RAM',
+    color: 'Add color', condition: 'Details pending', batteryHealth: 'Add battery health', network: 'Add SIM details',
+    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/google/Google Pixel 8a.jpeg'],
     shortDescription: 'Product information will be added after stock is confirmed.',
     specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
   },
