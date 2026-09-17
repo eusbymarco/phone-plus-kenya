@@ -42,7 +42,71 @@ window.renderShell = (activePage = '') => {
     window.addEventListener('resize', () => { if (window.innerWidth > 820 && mobileNav.open) { mobileNav.open = false; syncMenu(); } });
     syncMenu();
   }
-  if (footer) footer.innerHTML = `<div><a class="logo" href="./index.html">${logo}</a><p>${config.delivery}</p></div><div class="social-links" aria-label="Social media links"><a href="${config.socialLinks.instagram}" aria-label="Instagram" title="Instagram">${socialIcon.instagram}</a><a href="${config.socialLinks.whatsapp}" aria-label="WhatsApp" title="WhatsApp">${socialIcon.whatsapp}</a><a href="${config.socialLinks.tiktok}" aria-label="TikTok" title="TikTok">${socialIcon.tiktok}</a><a href="${config.socialLinks.facebook}" aria-label="Facebook" title="Facebook">${socialIcon.facebook}</a><a href="${config.socialLinks.x}" aria-label="X" title="X">${socialIcon.x}</a></div><div class="footer-contact"><p>${config.location}</p><a href="./contact.html">Contact</a></div>`;
+  if (footer) footer.innerHTML = `
+    <div class="footer-inner">
+      <div class="footer-brand-block">
+        <a class="logo" href="./index.html" aria-label="PhonePlus Kenya home">${logo}</a>
+        <p class="footer-tagline">${config.footerMessage}</p>
+        <div class="footer-contact-block">
+          <p>${config.location}</p>
+          <p><strong>Sales:</strong><br><a href="mailto:sales@phonepluskenya.com">sales@phonepluskenya.com</a><br><span>For sales-related enquiries.</span></p>
+          <p><strong>Support:</strong><br><a href="mailto:info@phonepluskenya.com">info@phonepluskenya.com</a><br><span>For warranty issues and non-sales-related matters.</span></p>
+        </div>
+      </div>
+
+      <div class="footer-links-wrap">
+        <div class="footer-column">
+          <h3>Company</h3>
+          <a href="./about.html">About Us</a>
+          <a href="./contact.html">Contact Us</a>
+          <a href="./contact.html">Store Location</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Shop</h3>
+          <a href="./shop.html">Shop Phones</a>
+          <a href="./shop.html">Brands</a>
+        </div>
+
+        <div class="footer-column footer-column-support">
+          <h3>Customer Support</h3>
+          <a href="./shipping.html">Shipping &amp; Returns</a>
+          <a href="./warranty.html">Warranty</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="${config.whatsappConfigured ? `https://wa.me/${config.whatsappNumber}` : './contact.html'}" target="${config.whatsappConfigured ? '_blank' : '_self'}" rel="noopener noreferrer">WhatsApp</a>
+          <a href="./faq.html">FAQs</a>
+          <a href="./contact.html">Device Financing</a>
+          <a href="./contact.html">Technical Support</a>
+        </div>
+      </div>
+
+      <div class="footer-trust-row">
+        <h3>Trust</h3>
+        <div class="footer-trust-items">
+          <span>Genuine Devices</span>
+          <span>Warranty</span>
+          <span>Nationwide Delivery</span>
+          <span>Payment on Delivery</span>
+        </div>
+      </div>
+
+      <div class="footer-divider" aria-hidden="true"></div>
+
+      <div class="footer-bottom">
+        <div class="footer-social-block">
+          <div class="social-links" aria-label="Social media links">
+            <a href="${config.socialLinks.instagram}" aria-label="Instagram" title="Instagram">${socialIcon.instagram}</a>
+            <a href="${config.socialLinks.whatsapp}" aria-label="WhatsApp" title="WhatsApp">${socialIcon.whatsapp}</a>
+            <a href="${config.socialLinks.tiktok}" aria-label="TikTok" title="TikTok">${socialIcon.tiktok}</a>
+            <a href="${config.socialLinks.facebook}" aria-label="Facebook" title="Facebook">${socialIcon.facebook}</a>
+            <a href="${config.socialLinks.x}" aria-label="X" title="X">${socialIcon.x}</a>
+          </div>
+        </div>
+
+        <p class="footer-copyright">&copy; 2026 PhonePlus Kenya. All Rights Reserved.</p>
+      </div>
+    </div>
+  `;
   window.updateCartBadge();
 };
 window.updateCartBadge = () => document.querySelectorAll('[data-cart-count]').forEach((badge) => { badge.textContent = window.cartCount(); });

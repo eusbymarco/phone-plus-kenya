@@ -1,10 +1,12 @@
 window.PHONE_PLUS_CONFIG = {
-  businessName: 'Phone Plus Kenya',
+  businessName: 'PhonePlus Kenya',
   currency: 'KES',
-  whatsappNumber: '254700000000',
+  whatsappNumber: '254758735829',
   whatsappConfigured: false,
+  businessEmail: 'Email available on request',
   location: 'Mombasa Town, Kenya',
   delivery: 'Nationwide delivery across Kenya',
+  footerMessage: 'Your next phone, clearly.',
   socialLinks: {
     instagram: '#',
     whatsapp: '#',

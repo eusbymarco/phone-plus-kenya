@@ -7,6 +7,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const homeSearchBrand = document.querySelector('#home-phone-type');
   const heroCarousel = document.querySelector('[data-hero-phone-carousel]');
   const displayLimit = 8;
+  const newArrivalIds = [
+    'samsung-galaxy-s26-ultra-5g', 'samsung-galaxy-a57-5g',
+    'oppo-reno-15-pro', 'oppo-reno-15-5g', 'oppo-reno-15f-5g',
+    'vivo-x300-pro', 'vivo-v70-5g',
+    'iphone-17-pro-max', 'iphone-17-pro', 'iphone-17',
+    'tecno-pova-curve-2-5g', 'tecno-camon-50-pro', 'tecno-camon-50',
+    'infinix-note-60-pro', 'infinix-note-edge', 'infinix-hot-70-pro-5g',
+    'redmi-note-15-pro-plus', 'redmi-17-4g',
+    'pixel-8-pro', 'pixel-8a', 'pixel-7a'
+  ];
   const brandLogoSources = {
     Apple: 'https://cdn.simpleicons.org/apple', Samsung: 'https://cdn.simpleicons.org/samsung', OPPO: 'https://cdn.simpleicons.org/oppo',
     Infinix: 'https://cdn.worldvectorlogo.com/logos/infinix-1.svg', Redmi: 'https://cdn.simpleicons.org/xiaomi',
@@ -41,13 +51,21 @@ document.addEventListener('DOMContentLoaded', () => {
     .slice()
     .sort((a, b) => a.priceKes - b.priceKes)
     .slice(0, displayLimit);
-  const newArrivals = products.slice(-displayLimit).reverse();
+  const newArrivalBrands = ['Samsung', 'OPPO', 'Vivo', 'Apple', 'Tecno', 'Infinix', 'Redmi', 'Google'];
+  const newArrivalGroups = newArrivalBrands.map((brand) => {
+    const requestedProducts = newArrivalIds
+      .map((id) => products.find((product) => product.id === id))
+      .filter((product) => product && product.category === brand);
+    const fallbackProducts = products.filter((product) => product.category === brand && !requestedProducts.includes(product));
+    return [...requestedProducts, ...fallbackProducts].slice(0, 3);
+  });
+  const newArrivals = Array.from({ length: 3 }, (_, index) => newArrivalGroups.map((group) => group[index]).filter(Boolean)).flat();
   featuredGrid.innerHTML = featuredProducts.map(window.productCard).join('');
   newArrivalsGrid.innerHTML = newArrivals.map(window.productCard).join('');
   window.bindAddButtons();
 
   if (heroCarousel) {
-    const newProducts = products.filter((product) => product.condition === 'Brand New' || product.condition === 'New Arrival');
+    const newProducts = newArrivalIds.map((id) => products.find((product) => product.id === id)).filter(Boolean);
     const pageSize = 4;
     let currentPage = 0;
     const renderArrivals = () => {

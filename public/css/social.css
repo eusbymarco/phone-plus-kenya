@@ -2,12 +2,6 @@
   text-align: right;
 }
 
-footer {
-  align-items: start;
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-}
-
 .social-links {
   display: flex;
   flex-wrap: wrap;
@@ -36,14 +30,6 @@ footer {
   stroke-linejoin: round;
   stroke-width: 1.7;
   width: 17px;
-}
-
-.social-links a:nth-child(2) svg,
-.social-links a:nth-child(3) svg,
-.social-links a:nth-child(4) svg,
-.social-links a:nth-child(5) svg {
-  fill: currentColor;
-  stroke: none;
 }
 
 .social-links a:hover {
