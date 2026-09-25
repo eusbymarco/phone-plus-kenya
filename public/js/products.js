@@ -71,74 +71,40 @@ window.PHONE_PLUS_PRODUCTS = [
     specifications: { display: '6.1-inch Super Retina XDR OLED (120Hz)', processor: 'Apple A16 Bionic', camera: '12MP + 12MP + TOF 3D LiDAR Selfie: 12MP + SL 3D', operatingSystem: 'iOS 26' }
   },
   {
-    id: 'ex-uk-iphone-14-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 14 Pro Max', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 14 pro max.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'ex-uk-iphone-14-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 14 Pro Max', storage: '256GB', ram: '6GB',
+    color: 'Space Black, Silver, Gold, Deep Purple ', condition: 'Ex-UK', batteryHealth: '4323 mAh', network: '5G, Nano-SIM, eSIM, Wi-Fi ',
+    warranty: '1 year', priceKes: 82000, stockStatus: 'in stock', images: ['./images/products/apple/ex uk/iPhone 14 pro max.jpeg'],
+    shortDescription: 'The iPhone 14 Pro Max delivers flagship performance with a stunning large display, powerful cameras, and Apple’s A16 Bionic chip. Its premium design and advanced camera system make it an excellent choice for everyday use, photography, gaming, and entertainment.',
+    specifications: { display: '6.7-inch', processor: 'Apple A16 Bionic', camera: '64MP + 12MP + 12MP + TOF 3D LiDAR Selfie: 12MP + SL 3D', operatingSystem: 'iOS 26' }
   },
   {
-    id: 'ex-uk-iphone-13', brand: 'Apple', category: 'Apple', model: 'iPhone 13', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 13.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'ex-uk-iphone-13', brand: 'Apple', category: 'Apple', model: 'iPhone 13', storage: '128GB', ram: '4GB',
+    color: 'Pink, Blue, Midnight, Starlight, and Product Red', condition: 'Ex-UK', batteryHealth: '2815 mAh', network: '5G, Nano-SIM, eSIM, Wi-Fi 6',
+    warranty: 'No warranty', priceKes: 46000, stockStatus: 'in stock', images: ['./images/products/apple/ex uk/iPhone 13.jpeg'],
+    shortDescription: 'The iPhone 13 combines reliable performance, an excellent camera system, and a sleek design in a compact and powerful package. Powered by Apple’s A15 Bionic chip, it handles everyday apps, photography, streaming, and gaming smoothly while delivering the familiar iOS experience.',
+    specifications: { display: '6.1 inches', processor: 'Apple A15 Bionic', camera: '12MP + 12MP Selfie: 12MP ', operatingSystem: 'upgradable to iOS 26' }
   },
   {
-    id: 'ex-uk-iphone-13-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 13 Pro', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 13 pro.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'ex-uk-iphone-13-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 13 Pro', storage: '256GB', ram: '6GB',
+    color: 'Graphite, Gold, Silver, Sierra Blue, Alpine Green', condition: 'Ex-UK', batteryHealth: '3095 mAh', network: '5G, Nano-SIM, eSIM, Wi-Fi 6',
+    warranty: ' No warranty', priceKes: 62000, stockStatus: 'in stock', images: ['./images/products/apple/ex uk/iPhone 13 pro.jpeg'],
+    shortDescription: ' The iPhone 13 Pro combines powerful performance, a premium stainless-steel design, and an advanced Pro camera system. Powered by Apple’s A15 Bionic chip, it delivers smooth performance for everyday use, photography, gaming, and entertainment.',
+    specifications: { display: '6.1-inch Super Retina XDR OLED display', processor: 'Apple A15 Bionic', camera: '12MP + 12MP + 12MP + TOF 3D LiDAR Selfie: 12MP + SL 3D ', operatingSystem: 'iOS 26' }
   },
   {
-    id: 'ex-uk-iphone-13-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 13 Pro Max', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 13 pro max.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
+    id: 'ex-uk-iphone-13-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 13 Pro Max', storage: '256GB, 512GB', ram: '6GB',
+    color: 'Graphite, Gold, Silver, Sierra Blue, Alpine Green', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
+    warranty: 'No warranty', priceKes: 70000, stockStatus: 'In Stock', images: ['./images/products/apple/ex uk/iPhone 13 pro max.jpeg'],
+    shortDescription: 'The iPhone 13 Pro Max combines powerful performance, a large ProMotion display, and a versatile Pro camera system. Powered by Apple’s A15 Bionic chip, it delivers smooth performance for gaming, photography, streaming, and everyday use, with the premium design expected from the Pro lineup.',
+    specifications: { display: '6.7-inch Super Retina XDR OLED display', processor: 'Apple A15 Bionic', camera: '12MP + 12MP + 12MP + TOF 3D LiDAR Selfie: 12MP + SL 3D ', operatingSystem: 'iOS 26' }
   },
+
   {
-    id: 'ex-uk-iphone-12', brand: 'Apple', category: 'Apple', model: 'iPhone 12', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 12.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
-  },
-  {
-    id: 'ex-uk-iphone-12-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 12 Pro', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iPhone 12 pro.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
-  },
-  {
-    id: 'ex-uk-iphone-12-pro-max', brand: 'Apple', category: 'Apple', model: 'iPhone 12 Pro Max', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iphone 12 pro max.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
-  },
-  {
-    id: 'ex-uk-iphone-11', brand: 'Apple', category: 'Apple', model: 'iPhone 11', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iphone 11.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
-  },
-  {
-    id: 'ex-uk-iphone-11-pro', brand: 'Apple', category: 'Apple', model: 'iPhone 11 Pro', storage: 'Details pending', ram: null,
-    color: 'Details pending', condition: 'Ex-UK', batteryHealth: 'Details pending', network: 'Details pending',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/apple/ex uk/iphone 11 pro.jpeg'],
-    shortDescription: 'Ex-UK iPhone. Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'iOS' }
-  },
-  {
-    id: 'samsung-s24-256gb', brand: 'Samsung', category: 'Samsung', model: 'Galaxy S24', storage: '256GB', ram: '8GB',
-    color: 'Add color', condition: 'Brand New', batteryHealth: null, network: 'Add SIM details',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/samsung/samsung-s24-256gb/1.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+    id: 'samsung-s24-Ultra', brand: 'Samsung', category: 'Samsung', model: 'Galaxy S24 Ultra', storage: '512GB', ram: '12GB',
+    color: 'Titanium Black, Titanium Gray, Titanium Violet, Titanium Yellow', condition: 'Brand New', batteryHealth: '5000mAh', network: 'Dual SIM, 3G, 4G, 5G, Wi-Fi',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 127000, stockStatus: 'In Stock', images: ['./images/products/samsung/samsung-s24-256gb/1.jpeg'],
+    shortDescription: 'The Samsung Galaxy S24 Ultra is a premium flagship smartphone built for powerful performance, photography, productivity, and entertainment. With its stunning AMOLED display, versatile camera system, built-in S Pen, and Galaxy AI features, it offers a complete high-end smartphone experience.',
+    specifications: { display: '6.8-inch AMOLED, 120Hz AMOLED display', processor: 'Qualcomm Snapdragon 8 Gen 3', camera: '200MP + 50MP + 10MP + 10MP Front Camera: 12MP selfie lens', operatingSystem: 'Android 14, One UI 16' }
   },
   {
     id: 'oppo-reno-15f-5g', brand: 'OPPO', category: 'OPPO', model: 'Reno 15F 5G', storage: '512GB', ram: '12GB',
@@ -427,32 +393,32 @@ window.PHONE_PLUS_PRODUCTS = [
     specifications: { display: '6.78-inch AMOLED, 1.5K resolution, 144Hz refresh rate', processor: 'MediaTek Helio G200 Ultimate processor', camera: '50MP main + 50MP telephoto camera (3x optical zoom, 60x AI zoom) + 8MP ultra-wide camera Front Camera: 32MP', operatingSystem: 'Android 15, HIOS 16' }
   },
   {
-    id: 'pixel-7', brand: 'Google', category: 'Google', model: 'Pixel 7', storage: 'Add storage', ram: 'Add RAM',
-    color: 'Add color', condition: 'Details pending', batteryHealth: 'Add battery health', network: 'Add SIM details',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/google/Google Pixel 7.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+    id: 'pixel-7', brand: 'Google', category: 'Google', model: 'Pixel 7', storage: '128GB', ram: '8GB',
+    color: 'Obsidian, Lemongrass, Snow', condition: 'Brand New', batteryHealth: '4,355mAh', network: '3G, 4G, 5G, Wi-Fi',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 37500, stockStatus: 'In Stock', images: ['./images/products/google/Google Pixel 7.jpeg'],
+    shortDescription: 'Smart, smooth, and camera-focused — the Google Pixel 7 delivers a clean Android experience with powerful Google features and excellent everyday performance.',
+    specifications: { display: '6.4 inch', processor: 'Google Tensor G2 (5 nm)', camera: ' 50MP + 12MP Front camera: 10.8 MP', operatingSystem: 'Android 13' }
   },
   {
-    id: 'pixel-7a', brand: 'Google', category: 'Google', model: 'Pixel 7a', storage: 'Add storage', ram: 'Add RAM',
-    color: 'Add color', condition: 'Details pending', batteryHealth: 'Add battery health', network: 'Add SIM details',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/google/Google Pixel 7a.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+    id: 'pixel-7a', brand: 'Google', category: 'Google', model: 'Pixel 7a', storage: ' 128GB', ram: '8GB',
+    color: 'Charcoal, Sea, and Snow', condition: 'Brand New', batteryHealth: '4,385mAh', network: 'Bluetooth 5.3, 4G, 5G, WI-FI',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 45000, stockStatus: 'In Stock', images: ['./images/products/google/Google Pixel 7a.jpeg'],
+    shortDescription: 'The Google Pixel 7a delivers a smooth, reliable Android experience in a compact design. Powered by Google Tensor G2, it combines strong everyday performance with an impressive camera system and smart Google features, making it a great choice for users who want a capable phone without the flagship price.',
+    specifications: { display: '6.4 inch', processor: 'Google Tensor G2 (5 nm)', camera: ' 50MP + 12MP Front camera: 10.8 MP', operatingSystem: 'Android 13' }
   },
   {
-    id: 'pixel-8-pro', brand: 'Google', category: 'Google', model: 'Pixel 8 Pro', storage: 'Add storage', ram: 'Add RAM',
-    color: 'Add color', condition: 'Details pending', batteryHealth: 'Add battery health', network: 'Add SIM details',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/google/Google Pixel 8 Pro.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+    id: 'pixel-8-pro', brand: 'Google', category: 'Google', model: 'Pixel 8 Pro', storage: '128GB', ram: '12GB',
+    color: 'Obsidian, Porcelain, and Bay', condition: 'Brand New', batteryHealth: '5,050mAh', network: ' 3G, 4G, 5G, Wi-Fi',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 64000, stockStatus: 'In Stock', images: ['./images/products/google/Google Pixel 8 Pro.jpeg'],
+    shortDescription: 'The Google Pixel 8 Pro delivers a premium Android experience with cutting-edge features and exceptional performance.',
+    specifications: { display: '6.7-inch, LTPO OLED', processor: 'Google Tensor G3 (4 nm)', camera: ' 50MP + 48MP + 48MP Front camera: 10.5 MP', operatingSystem: 'Android 14' }
   },
   {
-    id: 'pixel-8a', brand: 'Google', category: 'Google', model: 'Pixel 8a', storage: 'Add storage', ram: 'Add RAM',
-    color: 'Add color', condition: 'Details pending', batteryHealth: 'Add battery health', network: 'Add SIM details',
-    warranty: null, priceKes: null, stockStatus: 'Details pending', images: ['./images/products/google/Google Pixel 8a.jpeg'],
-    shortDescription: 'Product information will be added after stock is confirmed.',
-    specifications: { display: 'Add display details', processor: 'Add processor details', camera: 'Add camera details', operatingSystem: 'Android' }
+    id: 'pixel-8a', brand: 'Google', category: 'Google', model: 'Pixel 8a', storage: '256GB', ram: '8GB',
+    color: 'Obsidian, Porcelain, Bay, Aloe', condition: 'Brand New', batteryHealth: '4492 mAh, non-removable', network: '5G',
+    warranty: '1 Year Manufacturer Warranty', priceKes: 55000, stockStatus: 'In Stock', images: ['./images/products/google/Google Pixel 8a.jpeg'],
+    shortDescription: 'The Google Pixel 8a combines smooth performance, an excellent camera, and Google’s smart software in a compact, modern design. Powered by Google Tensor G3, it delivers responsive everyday performance and helpful AI-powered features while keeping the clean Pixel experience users love.',
+    specifications: { display: '6.7-inch, LTPO OLED', processor: 'Google Tensor G3 (4 nm)', camera: ' 64MP + 13MP Front camera: 13 MP', operatingSystem: 'Android 14, upgradable to Android 17, up to 7 major OS updates' }
   },
   {
     id: 'samsung-galaxy-a27-5g', brand: 'Samsung', category: 'Samsung', model: 'Galaxy A27 5G', storage: '128GB, 256GB', ram: '6GB, 8GB',
