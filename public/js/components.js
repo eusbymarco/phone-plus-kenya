@@ -49,6 +49,7 @@ window.renderShell = (activePage = '') => {
         <p class="footer-tagline">${config.footerMessage}</p>
         <div class="footer-contact-block">
           <p>${config.location}</p>
+          <p><strong>Contact:</strong><br>${config.contactNumbers.map((number) => `<a href="tel:${number}">${number}</a>`).join('<br>')}</p>
           <p><strong>Sales:</strong><br><a href="mailto:sales@phonepluskenya.com">sales@phonepluskenya.com</a><br><span>For sales-related enquiries.</span></p>
           <p><strong>Support:</strong><br><a href="mailto:info@phonepluskenya.com">info@phonepluskenya.com</a><br><span>For warranty issues and non-sales-related matters.</span></p>
         </div>
