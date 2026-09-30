@@ -9,10 +9,10 @@ window.PHONE_PLUS_CONFIG = {
   delivery: 'Nationwide delivery across Kenya',
   footerMessage: 'Your next phone, clearly.',
   socialLinks: {
-    instagram: '#',
-    whatsapp: '#',
-    tiktok: '#',
-    facebook: '#',
-    x: '#'
+    instagram: 'https://www.instagram.com/phonepluskenya?stkn=MWVvdGxxcGlpZnlrNQ==',
+    whatsapp: 'https://wa.me/254741407775',
+    tiktok: 'https://tiktok.com/@phonepluskenya',
+    facebook: 'https://www.facebook.com/phonepluskenya',
+    x: 'https://twitter.com/phonepluskenya'
   }
 };
